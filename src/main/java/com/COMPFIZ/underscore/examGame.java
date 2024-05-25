@@ -1,6 +1,8 @@
 package com.COMPFIZ.underscore;
 
+import com.COMPFIZ.core.Entity.Model;
 import com.COMPFIZ.core.ILogic;
+import com.COMPFIZ.core.ObjectLoader;
 import com.COMPFIZ.core.RenderManager;
 import com.COMPFIZ.core.WindowManager;
 import org.lwjgl.glfw.GLFW;
@@ -11,16 +13,29 @@ public class examGame implements ILogic {
     private int direction = 0;
     private float color = 0f;
     private final RenderManager rendMan;
+    private final ObjectLoader loader;
     private final WindowManager winMan;
+    private Model model;
+
 
     public examGame() {
         rendMan = new RenderManager();
         winMan = Launcher.getWinMan();
+        loader = new ObjectLoader();
     }
 
     @Override
     public void init() throws Exception {
         rendMan.init();
+        float[] vertices = {
+                -0.5f, 0.5f, 0f,
+                -0.5f, -0.5f, 0f,
+                0.5f, -0.5f, 0f,
+                0.5f, -0.5f, 0f,
+                0.5f, 0.5f, 0f,
+                -0.5f, 0.5f, 0f
+        };
+        model = loader.loadModel(vertices);
     }
 
     @Override
@@ -53,11 +68,12 @@ public class examGame implements ILogic {
         }
 
         winMan.setClearColor(color, color, color, 0.0f);
-        rendMan.clear();
+        rendMan.render(model);
     }
 
     @Override
     public void cleanup() {
         rendMan.cleanup();
+        loader.cleanup();
     }
 }

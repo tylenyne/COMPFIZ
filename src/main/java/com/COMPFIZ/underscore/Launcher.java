@@ -11,7 +11,7 @@ public class Launcher {
     private static examGame thisGame;//should be able to switch class to switch game
     public static void main(String[] args){
         System.out.println(Version.getVersion());
-        winMan = new WindowManager(Constants.TITLE, 1600, 900, false);
+        winMan = new WindowManager(Constants.TITLE, 1600, 900, true);
         thisGame = new examGame();
         EngineManager enGMan = new EngineManager();
         try{

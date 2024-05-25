@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c2e4546-2eed-4630-b820-b5f6d17fbd10" name="Changes" comment="changes loser">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/ILogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/RenderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/examGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/Entity/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/ObjectLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/EngineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/EngineManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/WindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/RenderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/RenderManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/examGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/examGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716648408175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes loser">
+      <option name="closed" value="true" />
+      <created>1716651930354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716651930354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
