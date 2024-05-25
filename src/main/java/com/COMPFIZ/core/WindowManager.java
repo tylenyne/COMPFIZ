@@ -87,7 +87,7 @@ public class WindowManager {
             GLFW.glfwSwapInterval(1);
         }
 
-        GLFW.glfwShowWindow(window);
+        //This is exactly where glfwshowWindow should be, if no work copy/paste the rest of this method to showWindow
         GL.createCapabilities();
         this.setClearColor(0.0f, 0.0f, 0f, 0f);
         GL11.glEnable(GL11.GL_DEPTH_TEST);
@@ -165,6 +165,10 @@ public class WindowManager {
     public Matrix4f updateProjectionMatrix(Matrix4f matrix, int width, int height){
         float aspectratio = (float)width/height;
         return matrix.setPerspective(FOV, aspectratio, zNEAR, zFAR);
+    }
+
+    public void showWindow(){
+        GLFW.glfwShowWindow(window);
     }
 
     public void cleanup(){

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2e4546-2eed-4630-b820-b5f6d17fbd10" name="Changes" comment="">
+    <list default="true" id="8c2e4546-2eed-4630-b820-b5f6d17fbd10" name="Changes" comment="changes loser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/EngineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/EngineManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/WindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +91,30 @@
       <option name="presentableId" value="Default" />
       <updated>1716332166934</updated>
     </task>
+    <task id="LOCAL-00001" summary="changes loser">
+      <option name="closed" value="true" />
+      <created>1716607818720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716607818720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes loser" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes loser" />
   </component>
 </project>
