@@ -68,7 +68,7 @@ public class WindowManager {
         GLFW.glfwSetKeyCallback(window, (window, key, scanc, action, mods) ->
                 {
                     if(key == GLFW.GLFW_KEY_ESCAPE && action == GLFW.GLFW_RELEASE){
-
+                        GLFW.glfwSetWindowShouldClose(window, true);
                     }
 
                 });

@@ -14,13 +14,16 @@ public class EngineManager {
     private boolean isRunning;
 
     private WindowManager winMan;
+    private ILogic gameLogic;
     private GLFWErrorCallback errorCallback;
 
     private void init() throws Exception{
         GLFW.glfwSetErrorCallback(this.errorCallback = GLFWErrorCallback.createPrint(System.err));
         winMan = Launcher.getWinMan();
+        gameLogic = Launcher.getThisGame();
         winMan.init();//Trying to initialize window but have control of when to show it. Not really important but its practice
         winMan.showWindow();//Make a function for this string of functions especially if  it gets bigger
+        gameLogic.init();
     }
 
     public static int getFps() {
@@ -91,19 +94,21 @@ public class EngineManager {
     }
 
     private void input(){
-
+        gameLogic.input();
     }
 
     private void render(){
+        gameLogic.render();
         winMan.update();
     }
 
     private void update(){
-
+        gameLogic.update();
     }
 
     private void cleanup(){
         winMan.cleanup();
+        gameLogic.cleanup();
         errorCallback.free();
         GLFW.glfwTerminate();
     }

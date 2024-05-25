@@ -1,17 +1,19 @@
 package com.COMPFIZ.underscore;
 import com.COMPFIZ.core.EngineManager;
 import com.COMPFIZ.core.WindowManager;
+import com.COMPFIZ.core.utils.Constants;
 import org.lwjgl.Version;
 import java.net.http.HttpClient;
 
 
 public class Launcher {
     private static WindowManager winMan;
-    private static EngineManager enGMan;
+    private static examGame thisGame;//should be able to switch class to switch game
     public static void main(String[] args){
         System.out.println(Version.getVersion());
-        winMan = new WindowManager("_UNDERSCORE", 1600, 900, false);
-        enGMan = new EngineManager();
+        winMan = new WindowManager(Constants.TITLE, 1600, 900, false);
+        thisGame = new examGame();
+        EngineManager enGMan = new EngineManager();
         try{
             enGMan.start();
         } catch(Exception e){
@@ -22,5 +24,9 @@ public class Launcher {
 
     public static WindowManager getWinMan(){
         return winMan;
+    }
+
+    public static examGame getThisGame() {
+        return thisGame;
     }
 }
