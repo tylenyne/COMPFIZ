@@ -19,7 +19,7 @@ public class WindowManager {
     private int width, height;
     private long window;
 
-    private boolean resize, vSync;
+    private boolean resized, vSync;
 
     private final Matrix4f projectionMatrix;
 
@@ -62,7 +62,7 @@ public class WindowManager {
             { //window is also different, probably supplied by glfw
                 this.width = width;//different width, lambda function
                 this.height = height;//different height, lambda function
-                this.setResize(true);
+                this.setResized(true);
             });
 
         GLFW.glfwSetKeyCallback(window, (window, key, scanc, action, mods) ->
@@ -89,23 +89,23 @@ public class WindowManager {
 
         //This is exactly where glfwshowWindow should be, if no work copy/paste the rest of this method to showWindow
         GL.createCapabilities();
-        this.setClearColor(0.0f, 0.0f, 0f, 0f);
+        this.setClearColor(0f, 0f, 0f, 0f);
         GL11.glEnable(GL11.GL_DEPTH_TEST);
         GL11.glEnable(GL11.GL_STENCIL_TEST);
         GL11.glEnable(GL11.GL_CULL_FACE);
-        GL11.glCullFace(GL11.GL_BACK);
+        GL11.glEnable(GL11.GL_BACK);
 
 
 
     }
 
 
-    public boolean isResize() {
-        return resize;
+    public boolean isResized() {
+        return resized;
     }
 
-    public void setResize(boolean resize) {
-        this.resize = resize;
+    public void setResized(boolean resized) {
+        this.resized = resized;
     }
 
     public boolean isvSync() {
@@ -161,7 +161,7 @@ public class WindowManager {
         float aspectratio = (float)width/height;
         return projectionMatrix.setPerspective(FOV, aspectratio, zNEAR, zFAR);
     }
-    //@Overload
+    //@Overwrite
     public Matrix4f updateProjectionMatrix(Matrix4f matrix, int width, int height){
         float aspectratio = (float)width/height;
         return matrix.setPerspective(FOV, aspectratio, zNEAR, zFAR);

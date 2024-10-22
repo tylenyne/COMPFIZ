@@ -7,23 +7,26 @@ import org.lwjgl.glfw.GLFWErrorCallback;
 
 public class EngineManager {
     public static final long NANOSECOND = 1000000000L;
-    public static final float FRAMERATE = 1000f;
+    public static final float FRAMERATE = 120f;
     private static int fps;
     private static float frametime = 1.0f/FRAMERATE;
 
     private boolean isRunning;
 
     private WindowManager winMan;
-    private ILogic gameLogic;
+    private MouseInput mouseIn;
+    private _IGamelogic gameLogic;
     private GLFWErrorCallback errorCallback;
 
     private void init() throws Exception{
         GLFW.glfwSetErrorCallback(this.errorCallback = GLFWErrorCallback.createPrint(System.err));
         winMan = Launcher.getWinMan();
         gameLogic = Launcher.getThisGame();
+        mouseIn = new MouseInput();
         winMan.init();//Trying to initialize window but have control of when to show it. Not really important but its practice
         winMan.showWindow();//Make a function for this string of functions especially if  it gets bigger
         gameLogic.init();
+        mouseIn.init();
     }
 
     public static int getFps() {
@@ -48,7 +51,7 @@ public class EngineManager {
         long frameCounter = 0;
         long lastTime = System.nanoTime();
         double unproccessedTime = 0D;
-
+//MainGameLoop-
         while(isRunning){
             boolean render = false;
             long startTime = System.nanoTime();
@@ -77,7 +80,7 @@ public class EngineManager {
             }
 
             if(render){
-                update();
+                update(frametime);
                 render();
                 frames++;
             }
@@ -94,6 +97,7 @@ public class EngineManager {
     }
 
     private void input(){
+        mouseIn.input();
         gameLogic.input();
     }
 
@@ -102,8 +106,8 @@ public class EngineManager {
         winMan.update();
     }
 
-    private void update(){
-        gameLogic.update();
+    private void update(float interval){
+        gameLogic.update(interval, mouseIn);
     }
 
     private void cleanup(){

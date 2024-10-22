@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2e4546-2eed-4630-b820-b5f6d17fbd10" name="Changes" comment="changes loser">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/Entity/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/ObjectLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/utils/Utils.java" afterDir="false" />
+    <list default="true" id="8c2e4546-2eed-4630-b820-b5f6d17fbd10" name="Changes" comment="idk">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/models/model.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textures/chest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/RenderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/RenderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/EngineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/EngineManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/Entity/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/Entity/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/ILogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/ObjectLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/ObjectLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/RenderManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/WindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/core/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/Launcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/examGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/COMPFIZ/underscore/examGame.java" afterDir="false" />
     </list>
@@ -52,13 +60,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Square" />
+        <option value="Cube" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tylenyne&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tylenyne/COMPFIZ.git&quot;,
+    &quot;accountId&quot;: &quot;a0ba84a6-296a-4a17-9741-29c648daf017&quot;
+  }
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -66,27 +89,78 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2gnT6JQB6L4RANcBPoFQSJCsIGu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.COMPFIZ [:Launcher.main()].executor": "Run",
-    "Gradle.COMPFIZ.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/daaak/Downloads/joml-1.10.5.jar",
-    "onboarding.tips.debug.path": "C:/Users/daaak/Downloads/COMPFIZ/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build COMPFIZ.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.COMPFIZ [:Launcher.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.COMPFIZ [:com.COMPFIZ.underscore.Launcher.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.COMPFIZ.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/proto/Downloads/usb/COMPFIZ&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/daaak/Downloads/COMPFIZ/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daaak\Downloads\COMPFIZ\src\main\resources\shaders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\proto\Downloads\usb\COMPFIZ\textures" />
+      <recent name="C:\Users\proto\Downloads\usb\COMPFIZ\src\main\resources\models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.COMPFIZ.core.rendering" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Launcher" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.COMPFIZ.underscore.Launcher" />
+      <module name="COMPFIZ.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,6 +169,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716332166934</updated>
+      <workItem from="1724625515175" duration="9351000" />
+      <workItem from="1724868820113" duration="14252000" />
+      <workItem from="1725034836150" duration="13867000" />
+      <workItem from="1725126619335" duration="597000" />
+      <workItem from="1725128490924" duration="5151000" />
+      <workItem from="1725165593393" duration="445000" />
+      <workItem from="1725176688767" duration="205000" />
+      <workItem from="1725177384123" duration="352000" />
+      <workItem from="1725213230195" duration="7000" />
+      <workItem from="1725213265114" duration="395000" />
+      <workItem from="1725213712928" duration="19000" />
+      <workItem from="1725245223820" duration="12689000" />
+      <workItem from="1725407600651" duration="5000" />
+      <workItem from="1725459739100" duration="1523000" />
+      <workItem from="1725497353835" duration="7000" />
+      <workItem from="1725628765601" duration="34000" />
+      <workItem from="1725628809147" duration="527000" />
+      <workItem from="1725629852997" duration="2632000" />
+      <workItem from="1725672162744" duration="7000" />
+      <workItem from="1725760122955" duration="3040000" />
+      <workItem from="1725818054753" duration="3036000" />
+      <workItem from="1725884305842" duration="2603000" />
+      <workItem from="1726273449212" duration="5693000" />
+      <workItem from="1726495087046" duration="1126000" />
+      <workItem from="1728926228974" duration="2077000" />
+      <workItem from="1729107166291" duration="474000" />
+      <workItem from="1729126863027" duration="3871000" />
     </task>
     <task id="LOCAL-00001" summary="changes loser">
       <option name="closed" value="true" />
@@ -120,8 +221,206 @@
       <option name="project" value="LOCAL" />
       <updated>1716651930354</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes loser">
+      <option name="closed" value="true" />
+      <created>1716661006777</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716661006777</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changes loser">
+      <option name="closed" value="true" />
+      <created>1716676420748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716676420748</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changes loser">
+      <option name="closed" value="true" />
+      <created>1716688295896</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716688295896</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changes loser">
+      <option name="closed" value="true" />
+      <created>1716694299431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716694299431</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DVD phase">
+      <option name="closed" value="true" />
+      <created>1716700539892</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716700539892</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DVD phase">
+      <option name="closed" value="true" />
+      <created>1716830042479</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716830042480</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DVD phase">
+      <option name="closed" value="true" />
+      <created>1716833300368</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716833300368</updated>
+    </task>
+    <task id="LOCAL-00011" summary="DVD phase">
+      <option name="closed" value="true" />
+      <created>1716852417845</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716852417845</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bunny">
+      <option name="closed" value="true" />
+      <created>1716854304274</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716854304274</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bunny">
+      <option name="closed" value="true" />
+      <created>1716854317275</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716854317275</updated>
+    </task>
+    <task id="LOCAL-00014" summary="bunny changes loser">
+      <option name="closed" value="true" />
+      <created>1716854854924</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716854854924</updated>
+    </task>
+    <task id="LOCAL-00015" summary="horse">
+      <option name="closed" value="true" />
+      <created>1716923227966</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716923227966</updated>
+    </task>
+    <task id="LOCAL-00016" summary="radar">
+      <option name="closed" value="true" />
+      <created>1717000372442</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717000372442</updated>
+    </task>
+    <task id="LOCAL-00017" summary="radar">
+      <option name="closed" value="true" />
+      <created>1717006962172</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717006962172</updated>
+    </task>
+    <task id="LOCAL-00018" summary="spotCone">
+      <option name="closed" value="true" />
+      <created>1717170010438</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717170010438</updated>
+    </task>
+    <task id="LOCAL-00019" summary="spotCone">
+      <option name="closed" value="true" />
+      <created>1717179362185</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717179362185</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ArrayListInj.">
+      <option name="closed" value="true" />
+      <created>1717196596733</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717196596733</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ArrayListInj.">
+      <option name="closed" value="true" />
+      <created>1717264369877</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1717264369877</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Very hard optimization">
+      <option name="closed" value="true" />
+      <created>1717341179934</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1717341179934</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fail">
+      <option name="closed" value="true" />
+      <created>1717362025959</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717362025959</updated>
+    </task>
+    <task id="LOCAL-00024" summary="confundido">
+      <option name="closed" value="true" />
+      <created>1717434239352</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1717434239352</updated>
+    </task>
+    <task id="LOCAL-00025" summary="confundido">
+      <option name="closed" value="true" />
+      <created>1717632895906</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1717632895907</updated>
+    </task>
+    <task id="LOCAL-00026" summary="idk">
+      <option name="closed" value="true" />
+      <created>1725165798769</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1725165798769</updated>
+    </task>
+    <task id="LOCAL-00027" summary="idk">
+      <option name="closed" value="true" />
+      <created>1725165827189</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1725165827189</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.fs" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -135,7 +434,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changes loser" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes loser" />
+    <MESSAGE value="DVD phase" />
+    <MESSAGE value="bunny" />
+    <MESSAGE value="bunny changes loser" />
+    <MESSAGE value="horse" />
+    <MESSAGE value="radar" />
+    <MESSAGE value="spotCone" />
+    <MESSAGE value="ArrayListInj." />
+    <MESSAGE value="Very hard optimization" />
+    <MESSAGE value="fail" />
+    <MESSAGE value="confundido" />
+    <MESSAGE value="idk" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk" />
   </component>
 </project>
